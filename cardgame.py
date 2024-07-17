@@ -69,8 +69,6 @@ while playing:
     elif player_card.number < comp_card.number:
         print(comp_msg)
         comp_score += 1
-    else:
-        print(f"{Fore.YELLOW}~ TIE! GO AGAIN! ~{Style.RESET_ALL} \n")
     
     used_card_string = ""
     for card in used_cards:
